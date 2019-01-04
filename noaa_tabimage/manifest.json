@@ -1,0 +1,15 @@
+{
+ "manifest_version": 2,
+ "name": "OceanTabNOAA",
+ "description": "Sets your new tab background to an ocean image from noaa.gov. Loading time for the pictures may be up to 10 seconds.",
+ "version": "1",
+ "author": "juliev",
+"browser_action": {
+   "default_icon": "tab-icon.jpg",
+   "default_title": "Have a good day"
+ },
+"chrome_url_overrides" : {
+  "newtab": "index.html"
+},
+ "permissions": ["activeTab"]
+}
